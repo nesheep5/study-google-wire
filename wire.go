@@ -6,9 +6,8 @@ package main
 import (
 	"context"
 
-	"wire-sample/foobarbaz"
-
 	"github.com/google/wire"
+	"github.com/nesheep5/study-google-wire/foobarbaz"
 )
 
 func initializeBaz(ctx context.Context) (foobarbaz.Baz, error) {

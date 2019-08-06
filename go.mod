@@ -1,4 +1,4 @@
-module wire-sample
+module github.com/nesheep5/study-google-wire
 
 go 1.12
 

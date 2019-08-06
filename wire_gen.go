@@ -7,10 +7,10 @@ package main
 
 import (
 	"context"
-	"wire-sample/foobarbaz"
+	"github.com/nesheep5/study-google-wire/foobarbaz"
 )
 
-// Injectors from main.go:
+// Injectors from wire.go:
 
 func initializeBaz(ctx context.Context) (foobarbaz.Baz, error) {
 	foo := foobarbaz.ProvideFoo()
